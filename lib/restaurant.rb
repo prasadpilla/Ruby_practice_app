@@ -73,9 +73,9 @@ attr_accessor :name, :cusine, :price
 	end
 
 	def import_line(line)
-	line_array = line.split("\t")
-	@name, @cusine, @price = line_array
-	return self
+		line_array = line.split("\t")
+		@name, @cusine, @price = line_array
+		return self
 	end		
 
 	def save

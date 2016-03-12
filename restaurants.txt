@@ -2,3 +2,5 @@
 tinyOwl	All	1524
 quit	asa	sad
 sdasdas	dsadas	dasdas
+Sample	Indian	123
+Funkky	donno	5522

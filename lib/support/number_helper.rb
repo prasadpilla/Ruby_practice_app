@@ -5,7 +5,7 @@ module NumberHelper
 		def number_to_currency(number, options={})
 
 			unit 			= options[:unit] 			|| '$'
-			precision		= options[:precision]		|| '2'
+			precision		= options[:precision]		|| 2
 			delimeter 		= options[:delimeter]		|| ','
 			separator		= options[:separator]		|| '.'
 
@@ -16,6 +16,7 @@ module NumberHelper
 
 			i = integer.length
 			until i <=3
+				i-=3
 				integer = integer.insert(i, delimeter)
 			end
 

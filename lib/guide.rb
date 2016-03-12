@@ -82,7 +82,7 @@ help ----> Displays the documentation
 
 
 			HERE
-			
+
 		when 'quit'
 			return :quit
 		else
@@ -93,7 +93,7 @@ help ----> Displays the documentation
 	def list
 		restaurants = Restaurant.saved_restaurants
 		restaurants.to_a.each do |rest|
-			puts rest.name + " | " + rest.cusine + " | " + rest.formatted_price
+			puts rest.name + ' | ' + rest.cusine + ' | ' + rest.formatted_price
 					end
 	end
 
